@@ -8,3 +8,6 @@ dependencies:
   - pre-commit
   - conda-poetry-liaison
   - nodejs
+  - pytorch::pytorch
+  - torchaudio
+  - torchvision
