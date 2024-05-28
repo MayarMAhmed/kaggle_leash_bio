@@ -1,5 +1,7 @@
 name: kaggle_leash_bio-dev
 channels:
+  - pytorch
+  - conda-forge
   - defaults
 dependencies:
   - python=3.11
@@ -8,6 +10,3 @@ dependencies:
   - pre-commit
   - conda-poetry-liaison
   - nodejs
-  - pytorch::pytorch
-  - torchaudio
-  - torchvision
