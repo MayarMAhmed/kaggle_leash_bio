@@ -629,3 +629,8 @@ psi.*.clean
 
 tests/tmp/*
 !tests/tmp/.gitkeep
+
+.kaggle_leash_bio/wandb/
+kaggle_leash_bio/wandb/
+kaggle_leash_bio/*.pt
+kaggle_leash_bio/*.parquet
